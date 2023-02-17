@@ -1,4 +1,5 @@
 import numpy as np
-n=int(input())
-Z=np.array([0] for n)
+a,b,c= input(), input(), input()
+a, b=int(a), int(b)
+Z=np.shape(a, b, dtype=c)
 print(Z)
